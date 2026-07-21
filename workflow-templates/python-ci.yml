@@ -16,16 +16,16 @@ concurrency:
 # Renovate will pin these @main refs to full commit SHAs.
 jobs:
   fmt:
-    uses: ffreis-org/ffreis-workflows-python/.github/workflows/python-fmt.yml@main
+    uses: FelipeFuhr/ffreis-workflows-python/.github/workflows/python-fmt.yml@main
     with:
       working-directory: .
 
   lint:
-    uses: ffreis-org/ffreis-workflows-python/.github/workflows/python-lint.yml@main
+    uses: FelipeFuhr/ffreis-workflows-python/.github/workflows/python-lint.yml@main
     with:
       working-directory: .
 
   test:
-    uses: ffreis-org/ffreis-workflows-python/.github/workflows/python-test.yml@main
+    uses: FelipeFuhr/ffreis-workflows-python/.github/workflows/python-test.yml@main
     with:
       working-directory: .
